@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://UDDI/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://UDDI/">
+
+<xs:element name="calculo" type="tns:calculo"/>
+
+<xs:element name="calculoResponse" type="tns:calculoResponse"/>
+
+<xs:element name="calculosueldo" type="tns:calculosueldo"/>
+
+<xs:element name="calculosueldoResponse" type="tns:calculosueldoResponse"/>
+
+<xs:complexType name="calculo">
+<xs:sequence>
+<xs:element name="dia1" type="xs:int"/>
+<xs:element name="dia2" type="xs:int"/>
+<xs:element name="dia3" type="xs:int"/>
+<xs:element name="dia4" type="xs:int"/>
+<xs:element name="dia5" type="xs:int"/>
+<xs:element name="dia6" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calculoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calculosueldo">
+<xs:sequence>
+<xs:element name="pagoH" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calculosueldoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

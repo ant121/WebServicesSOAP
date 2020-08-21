@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://25.6.112.69:8080/PruebaAD/ServicioDGIP?WSDL" uri="xml-resources/web-service-references/ServicioDGIP/wsdl/25.6.112.69_8080/PruebaAD/ServicioDGIP.wsdl"/>
+    <system systemId="http://25.6.112.69:8080/PruebaAD/ServicioDGIP?xsd=1" uri="xml-resources/web-service-references/ServicioDGIP/wsdl/25.6.112.69_8080/PruebaAD/ServicioDGIP.xsd_1.xsd"/>
+</catalog>
